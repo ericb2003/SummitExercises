@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:weightSum="1">
+
+    <EditText android:id="@+id/ListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_weight="1.00"
+        android:layout_marginLeft="3dip"
+        android:focusable="true"
+        android:singleLine="true"
+        android:background="@android:color/transparent">
+    </EditText>
+
+    <Button
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareButton"
+        android:background="@mipmap/share"
+        android:focusable="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteButton"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@mipmap/trash" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.markbusman.summitexercises.WorkoutExercises">
+
+    <item android:id="@+id/action_markListItem" android:title="@string/action_markListItem"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_resetListItems" android:title="@string/action_resetListItems"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_resetListTimers" android:title="@string/action_resetListTimers"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+
+</menu>
+
+<!--
+<item android:id="@+id/action_addListItem" android:title="@string/action_addListItem"
+        android:orderInCategory="1" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_editListItem" android:title="@string/action_editListItem"
+        android:orderInCategory="2" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_deleteListItem" android:title="@string/action_deleteListItem"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_viewListItem" android:title="@string/action_viewListItem"
+        android:orderInCategory="3" app:showAsAction="ifRoom" />
+-->
